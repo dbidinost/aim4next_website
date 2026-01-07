@@ -7,22 +7,22 @@ export default function About() {
   return (
     <main style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#333", fontFamily: "sans-serif" }}>
       <Head>
-        <title>About | PlaceholderAI</title>
-        <meta name="description" content="Learn about PlaceholderAI's mission and vision for AI solutions." />
+        <title>About | Aim4Next</title>
+        <meta name="description" content="Learn about Aim4Next's mission and vision for AI solutions." />
       </Head>
 
       <header style={{ backgroundColor: "#ffffff", padding: "0.5rem", borderBottom: "1px solid #eee" }}>
         <nav style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <img 
-              src="https://firebasestorage.googleapis.com/v0/b/hba-project-a3852-match-reports/o/public%2Faim4next.png?alt=media&token=308d547f-6b29-4eb3-98c0-595d8dbad816" 
+              src="https://firebasestorage.googleapis.com/v0/b/hba-project-a3852-match-reports/o/public%2Faim4next_new.png?alt=media&token=a1cfff7f-91ac-4fdb-96cb-defa09c15920"
               alt="Aim4Next Logo" 
               style={{ height: "100px", width: "auto" }}
             />
           </div>
           <ul style={{ display: "flex", gap: "2rem", listStyle: "none", margin: 0, padding: 0 }}>
             <li><Link href="/" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Home</Link></li>
-            <li><Link href="/solutions" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Our Solution</Link></li>
+            <li><Link href="/ai-invest" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>AI Invest</Link></li>            <li><Link href="/solutions" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Our Solution</Link></li>
             <li><Link href="/about" style={{ textDecoration: "none", color: "#007acc", fontSize: "1.2rem", fontWeight: "bold" }}>About</Link></li>
             <li><Link href="/contact" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Contact</Link></li>
           </ul>
@@ -30,12 +30,12 @@ export default function About() {
       </header>
 
       <section style={{ maxWidth: "960px", margin: "3rem auto", padding: "2rem" }}>
-        <h1 style={{ fontSize: "2.75rem", marginBottom: "2rem", textAlign: "center" }}>About PlaceholderAI</h1>
+        <h1 style={{ fontSize: "2.75rem", marginBottom: "2rem", textAlign: "center" }}>About Aim4Next</h1>
         
         <div style={{ marginBottom: "3rem" }}>
           <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Our Mission</h2>
           <p style={{ fontSize: "1.125rem", lineHeight: "1.6", color: "#555" }}>
-            At PlaceholderAI, we believe that artificial intelligence should be accessible, practical, and transformative. 
+            At Aim4Next, we believe that artificial intelligence should be accessible, practical, and transformative. 
             Our mission is to democratize AI technology by providing scalable, user-friendly solutions that empower 
             businesses to innovate and grow.
           </p>

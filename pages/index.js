@@ -71,14 +71,73 @@ export default function Home() {
       </section>
 
       {/* We Help You Section */}
-      <section style={{ maxWidth: "960px", margin: "4rem auto", padding: "2rem" }}>
-        <h2 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "#333", textAlign: "center" }}>We help you</h2>
-        <ul style={{ fontSize: "1.125rem", lineHeight: "1.8", color: "#666", listStyle: "disc", paddingLeft: "2rem" }}>
-          <li>Focus on the few AI opportunities that really matter</li>
-          <li>Build secure, practical AI platforms around data and processes</li>
-          <li>Change how teams make decisions, invest, and serve customers</li>
-          <li>Reduce risk while you move faster than your competitors</li>
-        </ul>
+      <section style={{ maxWidth: "1100px", margin: "4rem auto", padding: "2rem" }}>
+        <h2 style={{ fontSize: "2.5rem", marginBottom: "3rem", color: "#333", textAlign: "center", fontWeight: "bold" }}>We help you</h2>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "2rem" }}>
+          <div style={{
+            padding: "2rem",
+            backgroundColor: "#fff",
+            borderRadius: "12px",
+            border: "2px solid #667eea",
+            boxShadow: "0 4px 6px rgba(102, 126, 234, 0.1)",
+            transition: "transform 0.3s ease",
+            textAlign: "center"
+          }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🎯</div>
+            <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#667eea", fontWeight: "bold" }}>Focus Smart</h3>
+            <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
+              Focus on the few AI opportunities that really matter
+            </p>
+          </div>
+
+          <div style={{
+            padding: "2rem",
+            backgroundColor: "#fff",
+            borderRadius: "12px",
+            border: "2px solid #764ba2",
+            boxShadow: "0 4px 6px rgba(118, 75, 162, 0.1)",
+            transition: "transform 0.3s ease",
+            textAlign: "center"
+          }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🔒</div>
+            <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#764ba2", fontWeight: "bold" }}>Build Secure</h3>
+            <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
+              Build secure, practical AI platforms around data and processes
+            </p>
+          </div>
+
+          <div style={{
+            padding: "2rem",
+            backgroundColor: "#fff",
+            borderRadius: "12px",
+            border: "2px solid #667eea",
+            boxShadow: "0 4px 6px rgba(102, 126, 234, 0.1)",
+            transition: "transform 0.3s ease",
+            textAlign: "center"
+          }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🚀</div>
+            <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#667eea", fontWeight: "bold" }}>Transform Teams</h3>
+            <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
+              Change how teams make decisions, invest, and serve customers
+            </p>
+          </div>
+
+          <div style={{
+            padding: "2rem",
+            backgroundColor: "#fff",
+            borderRadius: "12px",
+            border: "2px solid #764ba2",
+            boxShadow: "0 4px 6px rgba(118, 75, 162, 0.1)",
+            transition: "transform 0.3s ease",
+            textAlign: "center"
+          }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>⚡</div>
+            <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#764ba2", fontWeight: "bold" }}>Move Faster</h3>
+            <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
+              Reduce risk while you move faster than your competitors
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Our Capabilities Section */}
