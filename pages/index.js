@@ -83,7 +83,7 @@ export default function Home() {
             transition: "transform 0.3s ease",
             textAlign: "center"
           }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🎯</div>
+
             <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#667eea", fontWeight: "bold" }}>Focus Smart</h3>
             <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
               Focus on the few AI opportunities that really matter
@@ -99,7 +99,7 @@ export default function Home() {
             transition: "transform 0.3s ease",
             textAlign: "center"
           }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🔒</div>
+
             <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#764ba2", fontWeight: "bold" }}>Build Secure</h3>
             <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
               Build secure, practical AI platforms around data and processes
@@ -115,7 +115,7 @@ export default function Home() {
             transition: "transform 0.3s ease",
             textAlign: "center"
           }}>
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🚀</div>
+
             <h3 style={{ fontSize: "1.25rem", marginBottom: "1rem", color: "#667eea", fontWeight: "bold" }}>Transform Teams</h3>
             <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555" }}>
               Change how teams make decisions, invest, and serve customers
