@@ -168,7 +168,7 @@ export default function AIInvest() {
       </section>
 
       <footer style={{ backgroundColor: "#fafafa", textAlign: "center", padding: "1.5rem", fontSize: "0.875rem", color: "#999", marginTop: "4rem" }}>
-        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025</p>
+        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025, 2026</p>
         <div style={{ display: "flex", justifyContent: "center", gap: "1rem", alignItems: "center" }}>
           <a href="https://linkedin.com/company/aim4next" target="_blank" rel="noopener noreferrer" style={{ color: "#667eea", textDecoration: "none" }}>LinkedIn</a>
           <span style={{ color: "#ccc" }}>|</span>

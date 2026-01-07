@@ -2,30 +2,8 @@
 // pages/contact.js
 import Head from "next/head";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: ""
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    alert("Thank you for your message! We'll get back to you within 24 hours.");
-    setFormData({ name: "", email: "", company: "", message: "" });
-  };
-
   return (
     <main style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#333", fontFamily: "sans-serif" }}>
       <Head>
@@ -52,156 +30,45 @@ export default function Contact() {
         </nav>
       </header>
 
-      <section style={{ maxWidth: "960px", margin: "3rem auto", padding: "2rem" }}>
+      <section style={{ maxWidth: "700px", margin: "3rem auto", padding: "2rem" }}>
         <h1 style={{ fontSize: "2.75rem", marginBottom: "2rem", textAlign: "center" }}>Get in Touch</h1>
-        <p style={{ fontSize: "1.125rem", color: "#555", textAlign: "center", marginBottom: "3rem" }}>
+        <p style={{ fontSize: "1.1rem", color: "#333", textAlign: "left", marginBottom: "2rem" }}>
           Ready to transform your business with AI? Let's discuss how we can help you achieve your goals.
         </p>
         
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "start" }}>
-          <div>
-            <h2 style={{ marginBottom: "1.5rem" }}>Let's Start the Conversation</h2>
-            <p style={{ marginBottom: "2rem", lineHeight: "1.6", color: "#555" }}>
-              Whether you're looking to implement your first AI solution or scale existing capabilities, 
-              our team of experts is here to guide you every step of the way.
-            </p>
-            
-            <div style={{ marginBottom: "2rem" }}>
-              <h3 style={{ marginBottom: "0.5rem", fontSize: "1.1rem" }}>📧 Email</h3>
-              <p style={{ color: "#555" }}>andrew.gaule@aimava.com</p>
-              <p style={{ color: "#555" }}>denis.bidinost@nekko.co.uk</p>
-            </div>
-            
+        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
+          <h2 style={{ marginBottom: "1.5rem", textAlign: "center" }}>Let's Start the Conversation!</h2>
+          <p style={{ marginBottom: "2rem", lineHeight: "1.6", color: "#333",fontSize: "1.1rem", textAlign: "left" }}>
+            Whether you're looking to implement your first AI solution or scale existing capabilities,
+            we are here to guide you every step of the way.
+          </p>
 
-            <div style={{ padding: "1.5rem", backgroundColor: "#f0f8ff", borderRadius: "8px", border: "1px solid #ddd" }}>
-              <h3 style={{ marginBottom: "1rem", fontSize: "1.1rem" }}>🚀 Free Consultation</h3>
-              <p style={{ color: "#555", marginBottom: "0" }}>
-                Schedule a free 30-minute consultation to discuss your AI needs and explore potential solutions.
-              </p>
-            </div>
+          <div style={{ marginBottom: "2rem", backgroundColor: "#edf5f7ff", borderRadius: "8px", border: "1px solid #ddd"}}>
+            <h3 style={{ marginBottom: "1rem", fontSize: "1.5rem", textAlign: "center" }}>Our Emails: </h3>
+            <p style={{ textAlign: "left", fontSize: "1.1rem" }}>
+              <a href="mailto:andrew.gaule@aimava.com" style={{ color: "#294decff", textDecoration: "none", marginLeft:"0.2rem" }}>
+                andrew.gaule@aimava.com
+              </a>
+            </p>
+            <p style={{ textAlign: "left", fontSize: "1.1rem" }}>
+              <a href="mailto:denis.bidinost@nekko.co.uk" style={{ color: "#294decff", textDecoration: "none" , marginLeft:"0.2rem" }}>
+                denis.bidinost@nekko.co.uk
+              </a>
+            </p>
           </div>
 
-          <div>
-            <form onSubmit={handleSubmit} style={{ 
-              border: "1px solid #ddd", 
-              borderRadius: "8px", 
-              padding: "2rem",
-              backgroundColor: "#fafafa"
-            }}>
-              <h3 style={{ marginBottom: "1.5rem" }}>Send us a Message</h3>
-              
-              <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="name" style={{ display: "block", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Name *
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  style={{
-                    width: "100%",
-                    padding: "0.75rem",
-                    border: "1px solid #ccc",
-                    borderRadius: "4px",
-                    fontSize: "1rem",
-                    boxSizing: "border-box"
-                  }}
-                />
-              </div>
 
-              <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="email" style={{ display: "block", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Email *
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  style={{
-                    width: "100%",
-                    padding: "0.75rem",
-                    border: "1px solid #ccc",
-                    borderRadius: "4px",
-                    fontSize: "1rem",
-                    boxSizing: "border-box"
-                  }}
-                />
-              </div>
-
-              <div style={{ marginBottom: "1rem" }}>
-                <label htmlFor="company" style={{ display: "block", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Company
-                </label>
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  style={{
-                    width: "100%",
-                    padding: "0.75rem",
-                    border: "1px solid #ccc",
-                    borderRadius: "4px",
-                    fontSize: "1rem",
-                    boxSizing: "border-box"
-                  }}
-                />
-              </div>
-
-              <div style={{ marginBottom: "1.5rem" }}>
-                <label htmlFor="message" style={{ display: "block", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Message *
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows="4"
-                  placeholder="Tell us about your AI needs and goals..."
-                  style={{
-                    width: "100%",
-                    padding: "0.75rem",
-                    border: "1px solid #ccc",
-                    borderRadius: "4px",
-                    fontSize: "1rem",
-                    resize: "vertical",
-                    boxSizing: "border-box"
-                  }}
-                />
-              </div>
-
-              <button
-                type="submit"
-                style={{
-                  backgroundColor: "#007acc",
-                  color: "white",
-                  padding: "0.75rem 2rem",
-                  border: "none",
-                  borderRadius: "6px",
-                  fontSize: "1rem",
-                  cursor: "pointer",
-                  width: "100%",
-                  fontWeight: "bold"
-                }}
-              >
-                Send Message
-              </button>
-            </form>
+          <div style={{ padding: "2rem" }}>
+            <h3 style={{ marginBottom: "1rem", fontSize: "1.5rem", textAlign: "center" }}>Free Consultation</h3>
+            <p style={{ color: "#333", marginBottom: "0", textAlign: "left", fontSize: "1.1rem" }}>
+              Schedule a free 30-minute consultation to discuss your AI needs and explore potential solutions.
+            </p>
           </div>
         </div>
       </section>
 
       <footer style={{ backgroundColor: "#fafafa", textAlign: "center", padding: "1.5rem", fontSize: "0.875rem", color: "#999", marginTop: "4rem" }}>
-        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025</p>
+        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025, 2026</p>
         <div style={{ display: "flex", justifyContent: "center", gap: "1rem", alignItems: "center" }}>
           <a href="https://linkedin.com/company/aim4next" target="_blank" rel="noopener noreferrer" style={{ color: "#667eea", textDecoration: "none" }}>LinkedIn</a>
           <span style={{ color: "#ccc" }}>|</span>

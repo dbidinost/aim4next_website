@@ -32,8 +32,58 @@ export default function About() {
       <section style={{ maxWidth: "960px", margin: "3rem auto", padding: "2rem" }}>
         <h1 style={{ fontSize: "2.75rem", marginBottom: "2rem", textAlign: "center" }}>About Aim4Next</h1>
         
+        {/* Our Team Section */}
+        <div style={{ marginBottom: "2rem" }}>
+          <h2 style={{ fontSize: "1.5rem", marginBottom: "2rem", textAlign: "center" }}>Our Team</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "3rem" }}>
+
+            {/* Founder 1 */}
+            <div style={{ textAlign: "center" }}>
+              <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "center" }}>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/hba-project-a3852-match-reports/o/public%2FAndrew.jfif?alt=media&token=fbd864c5-39e7-42d8-8183-0ffea6bce557"
+                  alt="Andrew Gaule"
+                  style={{
+                    width: "200px",
+                    height: "200px",
+                    borderRadius: "50%",
+                    objectFit: "cover",
+                    border: "4px solid #667eea"
+                  }}
+                />
+              </div>
+              <h3 style={{ fontSize: "1.5rem", marginBottom: "0.5rem", color: "#667eea" }}>Andrew Gaule</h3>
+              <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555", textAlign: "left" }}>
+                Strategic Advisor | AI & Business Transformation | Cambridge Economics, MBA, ACMA | Venturing, Innovation & Growth | Board & CxO Experience
+              </p>
+            </div>
+
+            {/* Founder 2 */}
+            <div style={{ textAlign: "center" }}>
+              <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "center" }}>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/hba-project-a3852-match-reports/o/public%2FDenis.jfif?alt=media&token=166aa27a-be2b-4fbf-8105-4f8756ff8db7"
+                  alt="Denis Bidinost"
+                  style={{
+                    width: "200px",
+                    height: "200px",
+                    borderRadius: "50%",
+                    objectFit: "cover",
+                    border: "4px solid #667eea"
+                  }}
+                />
+              </div>
+              <h3 style={{ fontSize: "1.5rem", marginBottom: "0.5rem", color: "#667eea" }}>Denis Bidinost</h3>
+              <p style={{ fontSize: "1rem", lineHeight: "1.6", color: "#555", textAlign: "left" }}>
+                Founder | NED | Investor | Board Member | UKBAA Angel of the Year Finalist
+              </p>
+            </div>
+
+          </div>
+        </div>
+
         <div style={{ marginBottom: "3rem" }}>
-          <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Our Mission</h2>
+          <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" , }}>Our Mission</h2>
           <p style={{ fontSize: "1.125rem", lineHeight: "1.6", color: "#555" }}>
             At Aim4Next, we believe that artificial intelligence should be accessible, practical, and transformative. 
             Our mission is to democratize AI technology by providing scalable, user-friendly solutions that empower 
@@ -55,28 +105,28 @@ export default function About() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "2rem" }}>
             <div style={{ padding: "1.5rem", border: "1px solid #ddd", borderRadius: "8px" }}>
               <h3 style={{ marginBottom: "0.5rem" }}>Innovation First</h3>
-              <p style={{ color: "#555" }}>Cutting-edge AI technology that stays ahead of the curve</p>
+              <p style={{ color: "#555", fontSize: "1.1rem" }}>Cutting-edge AI technology that stays ahead of the curve</p>
             </div>
             <div style={{ padding: "1.5rem", border: "1px solid #ddd", borderRadius: "8px" }}>
               <h3 style={{ marginBottom: "0.5rem" }}>Proven Results</h3>
-              <p style={{ color: "#555" }}>Track record of successful AI implementations across industries</p>
+              <p style={{ color: "#555" , fontSize: "1.1rem" }}>Track record of successful AI implementations across industries</p>
             </div>
             <div style={{ padding: "1.5rem", border: "1px solid #ddd", borderRadius: "8px" }}>
               <h3 style={{ marginBottom: "0.5rem" }}>Expert Support</h3>
-              <p style={{ color: "#555" }}>Dedicated team of AI specialists to guide your journey</p>
+              <p style={{ color: "#555" , fontSize: "1.1rem" }}>Dedicated team of AI specialists to guide your journey</p>
             </div>
           </div>
         </div>
+
+
       </section>
 
       <footer style={{ backgroundColor: "#fafafa", textAlign: "center", padding: "1.5rem", fontSize: "0.875rem", color: "#999", marginTop: "4rem" }}>
-        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025</p>
+        <p style={{ margin: "0", marginBottom: "0.5rem" }}>© Aim4Next 2025, 2026</p>
         <div style={{ display: "flex", justifyContent: "center", gap: "1rem", alignItems: "center" }}>
           <a href="https://linkedin.com/company/aim4next" target="_blank" rel="noopener noreferrer" style={{ color: "#667eea", textDecoration: "none" }}>LinkedIn</a>
           <span style={{ color: "#ccc" }}>|</span>
           <Link href="/contact" style={{ color: "#667eea", textDecoration: "none" }}>Contact</Link>
-          <span style={{ color: "#ccc" }}>|</span>
-          <Link href="/terms" style={{ color: "#667eea", textDecoration: "none" }}>Terms</Link>
         </div>
       </footer>
     </main>
