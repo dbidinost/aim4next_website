@@ -22,6 +22,7 @@ export default function AIInvest() {
           </div>
           <ul style={{ display: "flex", gap: "2rem", listStyle: "none", margin: 0, padding: 0 }}>
             <li><Link href="/" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Home</Link></li>
+            <li><Link href="/#courses" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>AI Courses</Link></li>
             <li><Link href="/ai-invest" style={{ textDecoration: "none", color: "#667eea", fontSize: "1.2rem", fontWeight: "bold" }}>AI Invest</Link></li>
             <li><Link href="/solutions" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>Our Solution</Link></li>
             <li><Link href="/about" style={{ textDecoration: "none", color: "#000", fontSize: "1.2rem" }}>About</Link></li>
