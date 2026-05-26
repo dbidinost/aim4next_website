@@ -164,32 +164,6 @@ export default function Home() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2.5rem", marginBottom: "3rem" }}>
               {/* Event 1 */}
               <a
-                href="https://www.eventbrite.co.uk/e/ai-strategy-and-implementation-for-business-leaders-tickets-1917539505279?aff=ebdsoporgprofile&_gl=1*1pwrka*_up*MQ..*_ga*OTg0MjQ1NTE1LjE3Njc3OTY0Nzk.*_ga_TQVES5V6SH*czE3Njc3OTY0NzgkbzEkZzAkdDE3Njc3OTY0NzgkajYwJGwwJGgw"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  textDecoration: "none",
-                  padding: "2.5rem",
-                  backgroundColor: "#fff",
-                  borderRadius: "16px",
-                  border: "3px solid #FFD700",
-                  boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
-                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                  display: "block"
-                }}
-              >
-                <div style={{ fontSize: "3rem", marginBottom: "1.5rem", textAlign: "center" }}>📅</div>
-                <h4 style={{ fontSize: "1.4rem", marginBottom: "1.5rem", color: "#667eea", fontWeight: "bold", textAlign: "center", lineHeight: "1.4" }}>
-                  AI Strategy and Implementation for Business Leaders
-                </h4>
-                <div style={{ fontSize: "1.1rem", color: "#555", lineHeight: "1.6", textAlign: "center" }}>
-                  <p style={{ marginBottom: "0.5rem", fontWeight: "bold", fontSize: "1.2rem" }}>📍 London</p>
-                  <p style={{ margin: "0", fontSize: "1.2rem", fontWeight: "bold", color: "#667eea" }}>5 Feb 2026</p>
-                </div>
-              </a>
-
-              {/* Event 2 */}
-              <a
                 href="https://www.henley.ac.uk/study/corporate-development/henley-ai-strategy-and-implementation?utm_source=bitly&utm_medium=short_link&utm_campaign=Course+Laaunch+ASI"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -216,7 +190,7 @@ export default function Home() {
                 </h4>
                 <div style={{ fontSize: "1.1rem", color: "#555", lineHeight: "1.6", textAlign: "center" }}>
                   <p style={{ marginBottom: "0.5rem", fontWeight: "bold", fontSize: "1.2rem" }}>📍 Henley Business School</p>
-                  <p style={{ margin: "0", fontSize: "1.2rem", fontWeight: "bold", color: "#764ba2" }}>25 March, 3 June 2026</p>
+                  <p style={{ margin: "0", fontSize: "1.2rem", fontWeight: "bold", color: "#764ba2" }}>3 June, 4 November 2026</p>
                 </div>
               </a>
             </div>
