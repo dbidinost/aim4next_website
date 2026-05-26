@@ -193,6 +193,32 @@ export default function Home() {
                   <p style={{ margin: "0", fontSize: "1.2rem", fontWeight: "bold", color: "#764ba2" }}>3 June, 4 November 2026</p>
                 </div>
               </a>
+
+              {/* Event 2 */}
+              <a
+                href="https://lu.ma/8065jgw6"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  textDecoration: "none",
+                  padding: "2.5rem",
+                  backgroundColor: "#fff",
+                  borderRadius: "16px",
+                  border: "3px solid #FFD700",
+                  boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
+                  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                  display: "block"
+                }}
+              >
+                <div style={{ fontSize: "3rem", marginBottom: "1.5rem", textAlign: "center" }}>💻</div>
+                <h4 style={{ fontSize: "1.4rem", marginBottom: "1.5rem", color: "#667eea", fontWeight: "bold", textAlign: "center", lineHeight: "1.4" }}>
+                  AI Sprint for Business Leaders — Online Program
+                </h4>
+                <div style={{ fontSize: "1.1rem", color: "#555", lineHeight: "1.6", textAlign: "center" }}>
+                  <p style={{ marginBottom: "0.5rem", fontWeight: "bold", fontSize: "1.2rem" }}>🌐 Online</p>
+                  <p style={{ margin: "0", fontSize: "1.2rem", fontWeight: "bold", color: "#667eea" }}>9–20 July 2026</p>
+                </div>
+              </a>
             </div>
           </div>
 
